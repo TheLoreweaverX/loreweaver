@@ -23,7 +23,7 @@ async fn main() -> Result<()> {
     fern::Dispatch::new()
         .format(move |out, message, record| {
             out.finish(format_args!(
-                "[{} | {} | arc_fork] {}",
+                "[{} | {} | loreweaver] {}",
                 Utc.timestamp_millis(Utc::now().timestamp_millis())
                     .format("%H:%M:%S.%3f")
                     .to_string(),
