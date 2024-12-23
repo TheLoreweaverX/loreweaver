@@ -157,7 +157,7 @@ impl Instance {
                     let mentions_str = mentions
                         .iter()
                         .enumerate()
-                        .map(|(i, mention)| format!("{} - {}", i, mention.text))
+                        .map(|(i, mention)| format!("{} - {}", mention.id, mention.text))
                         .collect::<Vec<String>>()
                         .join("\n");
 
