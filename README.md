@@ -1,3 +1,4 @@
+![LoreweaverBanner](imgs/loreweaver_banner.jpg)
 # LoreWeaver
 LoreWeaver is a self-evolving AI Agent incorporating the [rig framework](https://github.com/0xPlaygrounds/rig/)
 
